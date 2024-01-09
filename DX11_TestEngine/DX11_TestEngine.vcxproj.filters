@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Patterns">
+      <UniqueIdentifier>{993efc93-fa0f-46f0-9590-c405e6a1c207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Patterns">
+      <UniqueIdentifier>{3b053c8e-f81a-496c-8e52-84be6c8005c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{a0554cb3-d37c-45b5-8d9d-740cd6eb0d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{3b2d2e09-338c-42c8-bca6-5d2ffea96012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a7b6a2b4-51a9-4a4d-9204-75d4a3547594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{73face27-2beb-4cc9-8b5c-6e2c7ca796bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{c065f772-15c6-482e-8611-cb47e3309131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicElements">
+      <UniqueIdentifier>{e75e479a-0f50-4628-b1c6-1b83b9c294eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicElements">
+      <UniqueIdentifier>{d1920231-e006-4f9f-b981-d8dd63dfeff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawSystem">
+      <UniqueIdentifier>{73d988a9-a6dc-4953-b5c7-dd9c7048b5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawSystem">
+      <UniqueIdentifier>{5a1cc3c6-300b-4a5b-9d34-8a65006bad1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Json">
+      <UniqueIdentifier>{3a954724-6e31-4d45-8628-78bdb713da01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Json">
+      <UniqueIdentifier>{36ab90d0-dd10-4a37-a676-9f1ecadaceac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{c44d5076-a237-473e-a3f3-af5270308eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WindowsApi">
+      <UniqueIdentifier>{bb925634-6036-4191-a60b-ccfca7c70981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowsApi">
+      <UniqueIdentifier>{ab4407be-d181-4c96-8705-6797ac8e26eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dx11Manager">
+      <UniqueIdentifier>{43bcb379-f5cb-43d8-bfe9-b6c524e8a63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dx11Manager">
+      <UniqueIdentifier>{f6427970-f6c3-4ce0-9ea6-e7eb672a4eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppController">
+      <UniqueIdentifier>{7d83484e-02f1-4239-b967-d141ac782538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppController">
+      <UniqueIdentifier>{38aa8344-72b7-492e-90d1-55f3f2206823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{389502ef-0c89-4b3f-a7c3-158f8ca5f2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{cb77fb38-a5d4-4d75-857b-d0e09db4e543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructure">
+      <UniqueIdentifier>{9181636b-8b92-495b-8b1b-9393b8c6556a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructure">
+      <UniqueIdentifier>{575d0591-4a9e-4e14-82f0-035ebc642c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MainApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MathLib.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1TextRendererInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1ColorRGBA.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1ColorRGBAInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1DWriteRenderTarget.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1Factory.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1FactoryInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1FontWrapper.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1FontWrapperInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphAtlas.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphAtlasInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphProvider.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphProviderInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphRenderStates.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphSheet.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphSheetInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphVertexDrawer.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1StateSaver.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1TextGeometry.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1TextGeometryInterface.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\CFW1TextRenderer.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\FW1FontWrapper.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\FW1Precompiled.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicElement.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Quad.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Triangle.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Circle.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawSystem.cpp">
+      <Filter>Source Files\DrawSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawHardware.cpp">
+      <Filter>Source Files\DrawSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vectors.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrices.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsDataJsonIO.cpp">
+      <Filter>Source Files\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HollowTriangle.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HollowPoly.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HollowRect.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Line.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.cpp">
+      <Filter>Source Files\WindowsApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowsMsgMap.cpp">
+      <Filter>Source Files\WindowsApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source Files\WindowsApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsManager.cpp">
+      <Filter>Source Files\Dx11Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Source Files\WindowsApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AppController.cpp">
+      <Filter>Source Files\AppController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenuControllerState.cpp">
+      <Filter>Source Files\AppController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ControllerStateBase.cpp">
+      <Filter>Source Files\AppController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor2DControllerState.cpp">
+      <Filter>Source Files\AppController</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VectorDataStructure.cpp">
+      <Filter>Source Files\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cube.cpp">
+      <Filter>Source Files\GraphicElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor3DControllerState.cpp">
+      <Filter>Source Files\AppController</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MainApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLib.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vectors.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SimpleGeometry.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1ColorRGBA.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1DWriteRenderTarget.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1Factory.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1FontWrapper.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1GlyphAtlas.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1GlyphProvider.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1GlyphRenderStates.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1GlyphSheet.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1GlyphVertexDrawer.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1Object.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1StateSaver.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1TextGeometry.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\CFW1TextRenderer.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\FW1Precompiled.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\FW1CompileSettings.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\FW1FontWrapper.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Quad.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Triangle.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Circle.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicElement.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawSystem.h">
+      <Filter>Header Files\DrawSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawHardware.h">
+      <Filter>Header Files\DrawSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrices.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsDataJsonIO.h">
+      <Filter>Header Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HollowPoly.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HollowRect.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HollowTriangle.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Line.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BasicExceptions.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CustomWinInclude.h">
+      <Filter>Header Files\WindowsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>Header Files\WindowsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowsMsgMap.h">
+      <Filter>Header Files\WindowsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsManager.h">
+      <Filter>Header Files\Dx11Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Header Files\WindowsApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppController.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuControllerState.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ControllerStateBase.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IUIText.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IAppController.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IMainAppGeneralFunctions.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor2DControllerState.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VectorDataStructure.h">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IGeometryDataStructure.h">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cube.h">
+      <Filter>Header Files\GraphicElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor3DControllerState.h">
+      <Filter>Header Files\AppController</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shaders\VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\GeometryShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
